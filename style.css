@@ -1,0 +1,26 @@
+body {
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    Arial;
+}
+#txn-table td .tag-income {
+  color: #198754;
+  font-weight: 600;
+}
+#txn-table td .tag-expense {
+  color: #dc3545;
+  font-weight: 600;
+}
+.table-responsive {
+  max-height: 52vh;
+  overflow: auto;
+}
+@media (max-width: 576px) {
+  #search {
+    width: 100%;
+  }
+}
